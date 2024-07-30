@@ -29,7 +29,7 @@ function ContactForm() {
 
   return (
     <form>
-      <div className="flex justify-between gap-3">
+      <div className="flex flex-col lg:flex-row justify-between gap-3">
         <input
           onChange={handleInputChange}
           className="w-full p-2 border-2 border-gray-100 rounded-lg"
@@ -61,7 +61,7 @@ function ContactForm() {
       <button
         onClick={handleSubmit}
         type="button"
-        className="bg-blue-500 text-white px-6 py-4 disabled:opacity-50 disabled:cursor-not-allowed rounded-full"
+        className="bg-blue-500 text-white w-full lg:w-auto px-5 py-2 md:px-6 md:py-3 lg:px-8 lg:py-4 disabled:opacity-50 disabled:cursor-not-allowed rounded-full hover:bg-black hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300"
         disabled={!info.name || !info.email || !info.message}
       >
         Send

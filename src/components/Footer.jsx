@@ -1,29 +1,8 @@
+import { links } from "../data";
+
 function Footer() {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
-
-  const links = [
-    {
-      text: "Home",
-      url: "/",
-    },
-    {
-      text: "About",
-      url: "#about",
-    },
-    {
-      text: "Features",
-      url: "#features",
-    },
-    {
-      text: "Testimonials",
-      url: "#testimonials",
-    },
-    {
-      text: "Contact",
-      url: "#contact",
-    },
-  ];
 
   return (
     <div className="bg-black text-white">

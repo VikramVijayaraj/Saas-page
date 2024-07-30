@@ -1,23 +1,17 @@
-function Companies() {
-  const logos = [
-    "adobe.svg",
-    "hubspot.svg",
-    "stripe.svg",
-    "zoom.svg",
-    "slack.svg",
-  ];
+import { logos } from "../data";
 
+function Companies() {
   return (
-    <div className="px-40 py-40 space-y-16">
+    <div className="px-10 py-20 md:px-20 lg:p-40 space-y-16">
       <div className="text-center">
-        <h2 className="text-4xl font-semibold">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
           Trusted by companies all over the world
         </h2>
       </div>
 
-      <div className="flex justify-between h-14">
+      <div className="flex justify-between items-center">
         {logos.map((logo) => (
-          <img src={`/logos/${logo}`} />
+          <img className="h-7 lg:h-14" src={`/logos/${logo}`} />
         ))}
       </div>
     </div>
