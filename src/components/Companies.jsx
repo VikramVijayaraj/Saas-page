@@ -8,7 +8,7 @@ function Companies() {
   ];
 
   return (
-    <div className="py-40 space-y-16">
+    <div className="px-40 py-40 space-y-16">
       <div className="text-center">
         <h2 className="text-4xl font-semibold">
           Trusted by companies all over the world

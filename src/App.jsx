@@ -1,15 +1,23 @@
 import Companies from "./components/Companies";
+import Contact from "./components/Contact";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
-import Overview from "./components/Overview";
+import Testimonials from "./components/Testimonials";
+import About from "./components/About";
 
 function App() {
   return (
-    <div className="px-40 font-poppins">
+    <div className="font-poppins">
       <NavBar />
       <Hero />
       <Companies />
-      <Overview />
+      <About />
+      <CTA />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

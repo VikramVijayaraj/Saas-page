@@ -1,7 +1,6 @@
 function Hero() {
   return (
-    <div className="text-center flex flex-col justify-center items-center space-y-8 py-40">
-    
+    <div className="bg-gray-50 px-40 text-center flex flex-col justify-center items-center space-y-8 py-40">
       <div className="w-2/3 space-y-6">
         <h1 className="text-6xl font-semibold">
           Streamline all business operations in one space

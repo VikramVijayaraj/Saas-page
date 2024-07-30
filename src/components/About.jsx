@@ -1,11 +1,14 @@
 import Services from "./Services";
 
-function Overview() {
+function About() {
   return (
-    <div className="flex justify-between space-x-16 py-20 items-center">
+    <div
+      id="about"
+      className="flex justify-between space-x-16 px-40 py-20 items-center"
+    >
       {/* Content */}
       <div className="w-1/2 space-y-6">
-        <h3 className="text-5xl font-semibold">
+        <h3 className="text-5xl font-semibold tracking-wide leading-snug">
           Automate all of business operations
         </h3>
         <p>
@@ -23,4 +26,4 @@ function Overview() {
     </div>
   );
 }
-export default Overview;
+export default About;
