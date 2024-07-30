@@ -34,7 +34,7 @@ function NavBar() {
           <div className="relative cursor-pointer" onClick={handleMenu}>
             {menu ? <CloseIcon /> : <MenuIcon />}
           </div>
-          <div className="absolute right-10 shadow-2xl p-4 rounded-xl z-50 text-gray-600">
+          <div className="absolute right-10 shadow-2xl p-4 rounded-xl z-50 text-gray-600 bg-gray-50">
             {menu && (
               <ul className="space-y-4">
                 {links.map((link) => (
